@@ -1,0 +1,23 @@
+version: "3"
+
+tasks:
+  root:
+    dir: root-html-file
+    cmds:
+      - npm install
+      - npm start
+  app1:
+    dir: app1
+    cmds:
+      - npm install
+      - npm start
+  app2:
+    dir: app2
+    cmds:
+      - npm install
+      - npm start
+  navbar:
+    dir: navbar
+    cmds:
+      - npm install
+      - npm start
